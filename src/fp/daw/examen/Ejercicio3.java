@@ -18,7 +18,8 @@ public class Ejercicio3 {
 	 *  
 	 */
 	
-	public static ...
+	public static void stringToArray2D (char [][] vector) {
+	}
 	
 	/*
 	 * 1 punto

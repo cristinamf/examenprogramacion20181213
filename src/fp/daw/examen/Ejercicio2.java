@@ -22,7 +22,7 @@ public class Ejercicio2 {
 	 * Escribe en el método main las sentencias necesarias para poner a prueba el método
 	 * 'busquedaBinaria'. En primer lugar tendrá que crear un vector de números enteros
 	 * de un tamaño aleatorio entre 100 y 200. A continuación almacenará números aleatorios
-	 * comprendios entre Integer.MIN_VALUE e Integer.MAX_VALUE - 1, sin que se repita
+	 * comprendios entre 0 e Integer.MAX_VALUE - 1, sin que se repita
 	 * ningún valor. Finalmente generará números aleatorios en el mismo intervalo y 
 	 * comprobará invocando al método 'busquedaBinaria' si se encuentran almacenados en
 	 * el vector. Este proceso finalizará la primera vez que la búsqueda resulte positiva, es

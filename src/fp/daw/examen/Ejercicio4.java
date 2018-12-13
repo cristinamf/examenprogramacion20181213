@@ -17,7 +17,15 @@ public class Ejercicio4 {
 	 * 
 	 */
 	
-	public static ...
+	public static void numSecuencias (int [] vector) {
+		for(int i=0; i<vector.length; i++) {
+			for(int j=0; j<vector.length; j++) {
+				if (vector[i]==vector[j]) {
+					System.out.println("Se ha repetido el nunmero: "+vector[i]);
+				}
+			}
+		}
+	}
 	
 	/*
 	 * 1 punto
@@ -31,7 +39,10 @@ public class Ejercicio4 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		int [] numeros=new int [100];
+		Ejercicio1.mostrarVector(numeros);
+		System.out.println(numeros);
+		numSecuencias(numeros);
 
 	}
 
